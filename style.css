@@ -1,0 +1,28 @@
+body {
+    background-image: url(/images/jimNeme.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin: 0;
+}
+
+
+#timeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#clock {
+    font-family: monospace;
+    font-size: 6.75rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(8px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+}
